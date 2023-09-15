@@ -8,7 +8,7 @@ public class Exercise_SQL_Table {
     public static void main(String[] args) {
 
             try {
-                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/newdb", "root", "asdasd123");
+                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/newdb", "root", "Asdasd123stella.");
                 Statement statement = connection.createStatement();
                 statement.execute("select * from student");
             }catch (SQLException e){
